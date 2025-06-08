@@ -62,7 +62,7 @@ Scientific Thinking
 
 Conclusion
 
-This project demonstrates the effectiveness of using PySpark to process and model large scale e-commerce interaction data. Through comprehensive preprocessing including normalization, imputation, and feature engineering, we prepared the dataset for predictive modeling. Our initial logistic regression model provided a strong baseline for identifying user intent. Future iterations will incorporate tree-based models and binary classification frameworks to enhance both interpretability and predictive performance.
+This project demonstrates the effectiveness of using PySpark to process and model large scale e-commerce interaction data. Through comprehensive preprocessing including normalization, imputation, and feature engineering, we prepared the dataset for predictive modeling. Our initial logistic regression model provided a strong baseline for identifying user intent. Future iterations will incorporate tree based models and binary classification frameworks to enhance both interpretability and predictive performance.
 
 Collaboration
 
