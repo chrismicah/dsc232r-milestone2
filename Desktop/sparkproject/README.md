@@ -26,6 +26,7 @@ Preprocessing
 * Final features set includes: price, log_price, hour, day, month, and encoded categorical colums
 
 Model 1: Logistic Regression Classifier
+
 '''lr = LogisticRegression(featuresCol="features", labelCol="label")
 lr_model = lr.fit(train_data) '''
 * Used a full preprocessing pipleline to encode and assemble features 
