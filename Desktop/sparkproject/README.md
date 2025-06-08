@@ -39,7 +39,7 @@ Feature Work - Model 2 Candidate: Decision Tree
 Results
 Model 1: Logistic Regression
 * Training Accuracy: 0.8089
-* Test Accuracy: 0.7654
+* Test Accuracy: 0.7654 \n
 ** Insert Image of output ***
 
 Discussion
