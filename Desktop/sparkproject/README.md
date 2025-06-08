@@ -25,7 +25,7 @@ Preprocessing
 * Normalized values in price to help models learn better
 * Final features set includes: price, log_price, hour, day, month, and encoded categorical colums
 
-Model 1: Logistic Regression Classifier
+Model 1: Logistic Regression Classifier\n
 
 '''lr = LogisticRegression(featuresCol="features", labelCol="label")
 lr_model = lr.fit(train_data) '''
@@ -36,3 +36,31 @@ Feature Work - Model 2 Candidate: Decision Tree
 * Plan to train DicissionTreeClassifier for comparison
 * Will experiment with binary classification setup
 
+Results
+Model 1: Logistic Regression
+* Training Accuracy: 0.8089
+* Test Accuracy: 0.7654
+** Insert Image of output ***
+
+Discussion
+
+Logistic Regression
+* Used as a baseline classifier due to its interpretability
+* Handeles multiclass calsifications out of the box
+
+Anticipated Changes in Future Models
+* Decision Trees may handle nonlinear features better
+* Binary classification may simplify learning, especially with calss imbalnace
+
+Challanges
+* Needed to impute missing data before modeling
+* Price values had a skewed distribution; log_price was added to address this
+* one-hot encoding categorical variable increases dimensionality
+
+Scientific Thinking
+* We transformed and encoded freatures to better match expectations
+
+
+Conclusion
+
+This project demonstrates the effectiveness of using PySpark to process and model large-scale e-commerce interaction data. Through comprehensive preprocessing—including normalization, imputation, and feature engineering—we prepared the dataset for predictive modeling. Our initial logistic regression model provided a strong baseline for identifying user intent. Future iterations will incorporate tree-based models and binary classification frameworks to enhance both interpretability and predictive performance.
